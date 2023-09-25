@@ -12,8 +12,9 @@ function App() {
    <Navbar/>
    <Home/>
    <AboutUs/>
-   <Team/>
    <Courses/>
+   <Team/>
+
    <Footer/>
    </>
   );

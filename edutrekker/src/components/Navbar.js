@@ -10,6 +10,7 @@ const Navbar = () => {
         {/* <div className='navbar__navbar_items'>Activities</div> */}
         <div className='navbar__navbar_items'>Members</div>
         <div className='navbar__navbar_items'>About </div>
+        <div className='navbar__navbar_items'>Courses </div>
     </div>
   )
 } 

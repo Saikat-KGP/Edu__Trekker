@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="home__home_parent">
       <div className="home__welcome">
-        <h1>Welcome</h1>
+        <h1>EduTrekker</h1>
         <p>
           Welcome to EduTrekker, your trusted partner
           in the journey to academic excellence and success in competitive
