@@ -41,6 +41,7 @@
 @media(min-width:700px){
     .team__cards{
         width: 20%;
+        /* height:30%; */
         background-color: rgb(232, 233, 234);
         color: black;
         margin: 0.5%;

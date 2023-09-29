@@ -3,6 +3,7 @@ import "./Courses.css";
 import adv from '../img/adv.png'
 import nta from '../img/nta.png'
 import neet from '../img/neet.png'
+import cbse from '../img/CBSE.png'
 
 const Courses = () => {
   const handleClick = () => {
@@ -14,36 +15,49 @@ const Courses = () => {
       <div className="courses__courses">
         <h1>Courses</h1>
         <div className="courses__description">
-          <div className="courses__cards">
-            <h1>249.00/-</h1>
-            <h2>NEET</h2>
-            <img className="courses__img" src={neet} alt="" />
-            <p>
-              this course offers you many many things that you wanted to get
-              from other couaching indeustries but failed to get that out of it
-              all
-            </p>
-            <button onClick={handleClick}>Enroll</button>
-          </div>
-          <div className="courses__cards">
-            <h1>199.00/-</h1>
-            <h2>NTA</h2>
-            <img className="courses__img" src={nta} alt="" />
-            <p>
-              this course offers you many many things that you wanted to get
-              from other couaching indeustries but failed to get that out of it
-              all
-            </p>
-            <button onClick={handleClick}>Enroll</button>
-          </div>
-          <div className="courses__cards">
-            <h1>299.00/-</h1>
-            <h2>Jee Advanced</h2>
+        <div className="courses__cards">
+          <h2>JEE MAINS+ADVANCE</h2>
+            <h3>3 Months - 749.00/-<s>899.00/-</s></h3>
+            <h3>6 Months - 1199.00/-<s>1799.00/-</s></h3>
+          
             <img className="courses__img" src={adv} alt="" />
             <p>
-              this course offers you many many things that you wanted to get
-              from other couaching indeustries but failed to get that out of it
-              all
+            For those aiming to ace both JEE Main and Advance, our mentorship program offers specialized training. Our mentors guide students through the complexities of both exams, focusing on a rigorous curriculum and problem-solving skills.
+            </p>
+            <button onClick={handleClick}>Enroll</button>
+          </div>
+          <div className="courses__cards">
+          <h2>NEET</h2>
+            <h3>3 Months - 749.00/-<s>899.00/-</s></h3>
+            <h3>6 Months - 1199.00/-<s>1799.00/-</s></h3>
+          
+            <img className="courses__img" src={neet} alt="" />
+            <p>
+            Our NEET mentorship program is tailored to help aspiring medical students excel. Our expert mentors provide comprehensive guidance, study materials, and practice exams to ensure students are well-prepared for this competitive examination.
+            </p>
+            <button onClick={handleClick}>Enroll</button>
+          </div>
+          <div className="courses__cards">
+          <h2>JEE MAINS</h2>
+            <h3>3 Months - 599.00/-<s>799.00/-</s></h3>
+            <h3>6 Months - 999.00/-<s>1599.00/-</s></h3>
+          
+            <img className="courses__img" src={nta} alt="" />
+            <p>
+            Our JEE MAINS mentorship course equips students with the knowledge and strategies needed to succeed in the Joint Entrance Examination (JEE) Main. Through personalized coaching and extensive resources, we empower students to achieve their best scores.
+            </p>
+            <button onClick={handleClick}>Enroll</button>
+          </div>
+         
+
+          <div className="courses__cards">
+          <h2>CBSE</h2>
+            <h3>3 Months - 499.00/-<s>599.00/-</s></h3>
+            <h3>6 Months - 899.00/-<s>1199.00/-</s></h3>
+          
+            <img className="courses__img" src={cbse} alt="" />
+            <p>
+            Our CBSE mentorship program ensures students excel in their CBSE board exams. With a focus on exam techniques, and continuous assessment, we help students achieve top-tier results in their Central Board of Secondary Education examinations.
             </p>
             <button onClick={handleClick}>Enroll</button>
           </div>
